@@ -12,8 +12,6 @@ levelOfProgramming = (
 )
 
 
-
-
 FRUIT_CHOICES= (
     ('orange', 'Oranges'),
     ('cantaloupe', 'Cantaloupes'),
@@ -33,17 +31,3 @@ class ApplicationForm(forms.ModelForm):
             "radio": forms.RadioSelect(choices=FRUIT_CHOICES),
             "checkbox": forms.CheckboxSelectMultiple(choices=FRUIT_CHOICES),
         }
-
-
-
-
-
-
-
-
-        # widgets = {
-        #     "password": forms.PasswordInput(),
-        #     "date": forms.SelectDateWidget(years=range(1980, 2020)),
-        #     "radio": forms.RadioSelect(choices=levelOfProgramming),
-        #     "dropDown": forms.Select(choices=levelOfProgramming),
-        # }
