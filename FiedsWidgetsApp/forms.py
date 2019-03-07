@@ -8,4 +8,5 @@ class ApplicationForm(forms.ModelForm):
         fields = "__all__"
         widgets = {
             "password": forms.PasswordInput(),
+            "date": forms.SelectDateWidget(years=(1980, 2020)),
         }
