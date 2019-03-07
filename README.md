@@ -1,7 +1,4 @@
-# django-fields_widgets_ic
-
-At least Select Date, TextInput, Radio, Checkbox, Dropdown
-	Lecture: Create an index page and thank you page. Both should have an h1 Welcome and different content pages. Those content pages should be different application data. 
+# django-fields_widgets-ic
 
 ## Lecture
 Create a CodeCrew application. It should have the following data:
@@ -24,4 +21,4 @@ Create a VideoGame Tester application. It should have the following data:
 - Have you tested games before? (Yes or No)
 - Large area for resume
 
-Once the data is submitted you should be sent to a page that will tell the user they will be contacted soon. The header and footer data between the two pages should be the same.
+Once the data is submitted you should be sent to a page that will tell the user they will be contacted soon. The header data between the two pages should be the same.
